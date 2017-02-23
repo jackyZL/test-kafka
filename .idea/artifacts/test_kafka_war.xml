@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="test-kafka:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="test-kafka.war">
+      <element id="artifact" artifact-name="test-kafka:war exploded" />
+    </root>
+  </artifact>
+</component>

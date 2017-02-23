@@ -1,0 +1,6 @@
+这是针对，kafka的0.8.x系列版本
+
+针对kafka0.8.x 版本，Kafka producer程序本地运行时发送信息失败解决方案:  http://blog.csdn.net/yxinzju/article/details/50261457
+对于调用kafka的java api的时候，发送消息失败，需要对kafka的 server.properties文件添加
+advertised.host.name=10.12.50.12
+advertised.host.name=192.168.43.162
